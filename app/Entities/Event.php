@@ -10,7 +10,8 @@ class Event extends Model
         'user_id',
         'name',
         'description',
-        'image'
+        'image',
+        'published'
     ];
 
     public function user() : User
